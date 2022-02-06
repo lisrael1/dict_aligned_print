@@ -1,5 +1,5 @@
 def print_dict(dct, return_instead_of_print=False):
-    max_key_length = max([len(k) for k in dct.keys()])
+    max_key_length = max([len(k) for k in dct.keys()]) + 1
     max_key_length = str(max_key_length)
     raw_format = "{: >" + max_key_length + "} : {}"
     output = "\n".join([raw_format.format(k, v) for k, v in dct.items()])
