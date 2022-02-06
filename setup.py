@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="dict_aligned_print",
-    version="0.1.1",
+    version="0.1.2",
     author="Lior Israeli",
     author_email="israelilior@gmail.com",
     description="print dict in aligned way",
